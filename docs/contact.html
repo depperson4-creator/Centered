@@ -1,1 +1,56 @@
-<html><body><h1>Contact</h1><p>Contact page placeholder.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Centered Relationship Coaching & Ministries</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="CRC&M logo" class="logo">
+        <span>Centered Relationship Coaching & Ministries</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page">
+    <h1>Contact</h1>
+    <p>Fill out the form below, or email us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+
+    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
+      <label>
+        Name
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+
+    <p class="small">Prefer DMs? Find us on Instagram or TikTok.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Centered Relationship Coaching & Ministries</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
