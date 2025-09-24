@@ -1,6 +1,4 @@
-[README.md](https://github.com/user-attachments/files/22523662/README.md)# Centered
-Relationship Coaching And Ministries
-[# Centered Relationship Coaching & Ministries — Website (Final)
+# Centered Relationship Coaching & Ministries — Website (Final)
 
 Deploy-ready Next.js + Tailwind site with:
 - Clickable promo banner (scrolls to Contact)
@@ -18,4 +16,3 @@ npm run dev
 
 ## Google Analytics
 Add your GA ID in `app/layout.tsx` with a Script tag (see comment in Canvas or ask me to wire it).
-Uploading README.md…]()
